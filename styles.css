@@ -38,15 +38,22 @@ p{
 }
 
 .filmes-e-series{
+    margin-bottom: 100px;
+    margin-top: 50px;
     padding-left: 20px;
     padding-right: 20px
 }
 
 .mult-videos img{
-    opacity:0.4;
+    opacity:0.5;
     height:200px
 }
 
 .mult-videos img:hover{
     opacity: 1.0;
+    border: 2px solid rgba(104, 0, 97, 0.603);
+}
+
+.filmes-e-series h2{
+    color:rgb(62, 166, 255)
 }
