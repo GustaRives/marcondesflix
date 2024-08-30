@@ -1,0 +1,52 @@
+body {
+    color:wheat;
+    background: rgb(0, 5, 80);
+    margin: 0px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+header {border-bottom:solid 2px rgb(62, 166, 255);
+        padding: 20px;
+        font-size: 22px;
+        color: rgb(62, 166, 255)
+}
+
+.SEM-PONTAS-SOLTAS {
+    background: rgb(49, 34, 74);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content:center ;
+}
+
+.texto{
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.mult-videos{
+    display:flex;
+    overflow-x: auto;
+    gap:10px
+}
+
+.filmes-e-series{
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+.mult-videos img{
+    opacity:0.4;
+    height:200px
+}
+
+.mult-videos img:hover{
+    opacity: 1.0;
+}
